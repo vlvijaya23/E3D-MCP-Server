@@ -1,0 +1,78 @@
+-- ============================================================
+-- DRAFT v2 - NOT TESTED. Review before running.
+-- v1 failed because GENSEC has no POSS attribute.
+-- v2 uses SCTN, which does take POSS / POSE / SPRE.
+--
+-- Uses the EXISTING framework /TEKLA-TEST (created by v1).
+-- Delete the empty /TKL-207816889 GENSEC first (see notes).
+--
+-- ASSUMPTIONS TO CONFIRM:
+--  1. SPRE /EU-HE160A is the closest section to HW150*150*7*10
+--  2. MATR /GR275 is a stand-in for Q355B
+--  3. Tekla X,Y,Z (mm) = E3D E,N,U with the framework at origin
+--  4. JUSL NA matches Tekla's reference line
+--  5. Rotation (BANG) is left at default
+-- ============================================================
+
+/TEKLA-TEST
+
+-- Tekla id 207816889
+NEW SCTN /TKS-207816889
+SPRE /EU-HE160A
+MATR /GR275
+JUSL NA
+POSS E -5658.6mm N 5352.5mm U 4518.0mm
+POSE E -5658.6mm N 4852.5mm U 4518.0mm
+:TEKLA_GUID 'e5d3b7af-c405-426c-a2f0-5c1a6a7b5acf'
+:TEKLA_PROFILE 'HW150*150*7*10'
+:TEKLA_MATERIAL 'Q355B'
+
+/TEKLA-TEST
+-- Tekla id 207654937
+NEW SCTN /TKS-207654937
+SPRE /EU-HE160A
+MATR /GR275
+JUSL NA
+POSS E -9319.7mm N 8375.0mm U 7591.4mm
+POSE E -9319.7mm N 7825.0mm U 7591.4mm
+:TEKLA_GUID 'e63bc546-35ab-4ce4-b71f-76c21e8b964e'
+:TEKLA_PROFILE 'HW150*150*7*10'
+:TEKLA_MATERIAL 'Q355B'
+
+/TEKLA-TEST
+-- Tekla id 207656935
+NEW SCTN /TKS-207656935
+SPRE /EU-HE160A
+MATR /GR275
+JUSL NA
+POSS E -7097.5mm N 8375.0mm U 7560.5mm
+POSE E -7097.5mm N 7825.0mm U 7560.5mm
+:TEKLA_GUID '11c7307e-2cd0-4a59-9ba6-ecf8b4eb9fef'
+:TEKLA_PROFILE 'HW150*150*7*10'
+:TEKLA_MATERIAL 'Q355B'
+
+/TEKLA-TEST
+-- Tekla id 207078672
+NEW SCTN /TKS-207078672
+SPRE /EU-HE160A
+MATR /GR275
+JUSL NA
+POSS E -1410.0mm N 225.0mm U 4320.9mm
+POSE E -210.0mm N 225.0mm U 4320.9mm
+:TEKLA_GUID '02e5b2a6-7ab5-4bdd-ba57-0187696eb9c3'
+:TEKLA_PROFILE 'HW150*150*7*10'
+:TEKLA_MATERIAL 'Q355B'
+
+/TEKLA-TEST
+-- Tekla id 207078767
+NEW SCTN /TKS-207078767
+SPRE /EU-HE160A
+MATR /GR275
+JUSL NA
+POSS E -210.0mm N 225.0mm U 3320.9mm
+POSE E -1060.0mm N 225.0mm U 4170.9mm
+:TEKLA_GUID '90650d8e-2e7e-4833-92f3-062f7ea6c0f4'
+:TEKLA_PROFILE 'HW150*150*7*10'
+:TEKLA_MATERIAL 'Q355B'
+
+SAVEWORK
