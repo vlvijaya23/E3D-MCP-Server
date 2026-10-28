@@ -1,0 +1,25 @@
+cd C:\E3D-mcp
+
+& "C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe" `
+/target:library `
+/out:E3DBridge_New.dll `
+/reference:"C:\AVEVA\Everything3D3.1\Aveva.ApplicationFramework.dll" `
+/reference:"C:\AVEVA\Everything3D3.1\Aveva.Core.Database.dll" `
+/reference:"C:\AVEVA\Everything3D3.1\Aveva.Core.Utilities.dll" `
+/reference:"C:\AVEVA\Everything3D3.1\Aveva.Core.Geometry.dll" `
+/reference:"C:\AVEVA\Everything3D3.1\PMLNet.dll" `
+/reference:"C:\Windows\Microsoft.NET\Framework64\v4.0.30319\System.Web.Extensions.dll" `
+E3DBridge.cs
+
+
+Copy-Item `
+"C:\E3D-mcp\E3DBridge_New.dll" `
+"C:\AVEVA\Everything3D3.1\E3DBridge.dll" `
+-Force
+
+
+E3D .NET Customisation Guide.pdf
+E3D Software Customisation Reference.pdf
+E3D Database API Guide.pdf
+PML.NET Guide.pdf
+Structural Modelling Guide.pdf

@@ -1,0 +1,1140 @@
+{
+    "nodes": [
+        {
+            "id": 1,
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        {
+            "id": 6,
+            "x": 4.62001,
+            "y": 0.0,
+            "z": 3.30001
+        },
+        {
+            "id": 10,
+            "x": 9.24002,
+            "y": 6.50001,
+            "z": 3.30001
+        },
+        {
+            "id": 13,
+            "x": 0.0,
+            "y": 3.0,
+            "z": 3.30001
+        },
+        {
+            "id": 17,
+            "x": 4.62001,
+            "y": 3.0,
+            "z": 0.0
+        },
+        {
+            "id": 21,
+            "x": 9.24002,
+            "y": 5.0,
+            "z": 3.30001
+        },
+        {
+            "id": 27,
+            "x": 6.93001,
+            "y": 3.0,
+            "z": 3.30001
+        },
+        {
+            "id": 31,
+            "x": 6.93001,
+            "y": 5.0,
+            "z": 3.30001
+        },
+        {
+            "id": 34,
+            "x": 2.31,
+            "y": 6.50001,
+            "z": 0.0
+        },
+        {
+            "id": 37,
+            "x": 9.24002,
+            "y": 7.25001,
+            "z": 3.30001
+        },
+        {
+            "id": 45,
+            "x": 0.1,
+            "y": 7.25001,
+            "z": 0.0
+        },
+        {
+            "id": 59,
+            "x": 4.62002,
+            "y": 9.92001,
+            "z": 0.975
+        },
+        {
+            "id": 65,
+            "x": 4.72001,
+            "y": 5.0,
+            "z": 0.0
+        },
+        {
+            "id": 69,
+            "x": 6.93001,
+            "y": 7.25001,
+            "z": 3.3
+        },
+        {
+            "id": 73,
+            "x": 9.24002,
+            "y": 4.0,
+            "z": 3.30001
+        },
+        {
+            "id": 78,
+            "x": 6.93001,
+            "y": 6.50001,
+            "z": 0.4875
+        },
+        {
+            "id": 83,
+            "x": 9.24002,
+            "y": 9.92001,
+            "z": 3.3
+        },
+        {
+            "id": 86,
+            "x": 4.72001,
+            "y": 3.0,
+            "z": 3.30001
+        },
+        {
+            "id": 90,
+            "x": 4.62001,
+            "y": 7.25001,
+            "z": -0.000499994
+        },
+        {
+            "id": 93,
+            "x": 9.24002,
+            "y": 7.25001,
+            "z": 0.0
+        },
+        {
+            "id": 96,
+            "x": 0.1,
+            "y": 6.50001,
+            "z": 0.0
+        },
+        {
+            "id": 99,
+            "x": 4.685,
+            "y": 6.50001,
+            "z": 3.30001
+        },
+        {
+            "id": 102,
+            "x": 4.62001,
+            "y": 0.2,
+            "z": 3.3
+        },
+        {
+            "id": 106,
+            "x": 7.03001,
+            "y": 3.0,
+            "z": 3.30001
+        },
+        {
+            "id": 110,
+            "x": 6.83001,
+            "y": 5.0,
+            "z": 3.30001
+        },
+        {
+            "id": 115,
+            "x": 8.15001,
+            "y": 6.50001,
+            "z": 3.30001
+        },
+        {
+            "id": 118,
+            "x": 8.02001,
+            "y": 6.50001,
+            "z": 3.30001
+        },
+        {
+            "id": 121,
+            "x": 6.99501,
+            "y": 5.0,
+            "z": 3.30001
+        },
+        {
+            "id": 125,
+            "x": 6.39201,
+            "y": 3.0,
+            "z": 0.0
+        },
+        {
+            "id": 129,
+            "x": 7.03001,
+            "y": 5.0,
+            "z": 0.0
+        },
+        {
+            "id": 132,
+            "x": 9.24002,
+            "y": 4.45,
+            "z": 0.775
+        },
+        {
+            "id": 136,
+            "x": 9.24002,
+            "y": 4.0,
+            "z": 1.774
+        }
+    ],
+    "members": [
+        {
+            "member": 1,
+            "start": 3,
+            "end": 13,
+            "type": "COLUMN"
+        },
+        {
+            "member": 2,
+            "start": 6,
+            "end": 102,
+            "type": "COLUMN"
+        },
+        {
+            "member": 3,
+            "start": 4,
+            "end": 103,
+            "type": "COLUMN"
+        },
+        {
+            "member": 4,
+            "start": 1,
+            "end": 16,
+            "type": "COLUMN"
+        },
+        {
+            "member": 5,
+            "start": 5,
+            "end": 104,
+            "type": "COLUMN"
+        },
+        {
+            "member": 6,
+            "start": 2,
+            "end": 105,
+            "type": "COLUMN"
+        },
+        {
+            "member": 7,
+            "start": 9,
+            "end": 7,
+            "type": "BEAM"
+        },
+        {
+            "member": 8,
+            "start": 12,
+            "end": 75,
+            "type": "BEAM"
+        },
+        {
+            "member": 9,
+            "start": 10,
+            "end": 8,
+            "type": "BEAM"
+        },
+        {
+            "member": 10,
+            "start": 9,
+            "end": 33,
+            "type": "BEAM"
+        },
+        {
+            "member": 11,
+            "start": 12,
+            "end": 99,
+            "type": "BEAM"
+        },
+        {
+            "member": 12,
+            "start": 7,
+            "end": 96,
+            "type": "BEAM"
+        },
+        {
+            "member": 13,
+            "start": 11,
+            "end": 100,
+            "type": "BEAM"
+        },
+        {
+            "member": 14,
+            "start": 13,
+            "end": 19,
+            "type": "COLUMN"
+        },
+        {
+            "member": 15,
+            "start": 14,
+            "end": 20,
+            "type": "COLUMN"
+        },
+        {
+            "member": 16,
+            "start": 15,
+            "end": 73,
+            "type": "COLUMN"
+        },
+        {
+            "member": 17,
+            "start": 16,
+            "end": 22,
+            "type": "COLUMN"
+        },
+        {
+            "member": 18,
+            "start": 17,
+            "end": 23,
+            "type": "COLUMN"
+        },
+        {
+            "member": 19,
+            "start": 18,
+            "end": 49,
+            "type": "COLUMN"
+        },
+        {
+            "member": 20,
+            "start": 19,
+            "end": 9,
+            "type": "COLUMN"
+        },
+        {
+            "member": 21,
+            "start": 20,
+            "end": 12,
+            "type": "COLUMN"
+        },
+        {
+            "member": 22,
+            "start": 21,
+            "end": 10,
+            "type": "COLUMN"
+        },
+        {
+            "member": 23,
+            "start": 22,
+            "end": 7,
+            "type": "COLUMN"
+        },
+        {
+            "member": 24,
+            "start": 23,
+            "end": 11,
+            "type": "COLUMN"
+        },
+        {
+            "member": 25,
+            "start": 24,
+            "end": 8,
+            "type": "COLUMN"
+        },
+        {
+            "member": 26,
+            "start": 13,
+            "end": 14,
+            "type": "BEAM"
+        },
+        {
+            "member": 27,
+            "start": 14,
+            "end": 86,
+            "type": "BEAM"
+        },
+        {
+            "member": 28,
+            "start": 16,
+            "end": 17,
+            "type": "BEAM"
+        },
+        {
+            "member": 29,
+            "start": 17,
+            "end": 87,
+            "type": "BEAM"
+        },
+        {
+            "member": 30,
+            "start": 13,
+            "end": 16,
+            "type": "BEAM"
+        },
+        {
+            "member": 31,
+            "start": 14,
+            "end": 17,
+            "type": "BEAM"
+        },
+        {
+            "member": 32,
+            "start": 15,
+            "end": 134,
+            "type": "BEAM"
+        },
+        {
+            "member": 33,
+            "start": 19,
+            "end": 29,
+            "type": "BEAM"
+        },
+        {
+            "member": 34,
+            "start": 20,
+            "end": 62,
+            "type": "BEAM"
+        },
+        {
+            "member": 35,
+            "start": 22,
+            "end": 30,
+            "type": "BEAM"
+        },
+        {
+            "member": 36,
+            "start": 23,
+            "end": 65,
+            "type": "BEAM"
+        },
+        {
+            "member": 37,
+            "start": 19,
+            "end": 22,
+            "type": "BEAM"
+        },
+        {
+            "member": 38,
+            "start": 20,
+            "end": 23,
+            "type": "BEAM"
+        },
+        {
+            "member": 39,
+            "start": 21,
+            "end": 24,
+            "type": "BEAM"
+        },
+        {
+            "member": 43,
+            "start": 27,
+            "end": 106,
+            "type": "BEAM"
+        },
+        {
+            "member": 44,
+            "start": 28,
+            "end": 107,
+            "type": "BEAM"
+        },
+        {
+            "member": 46,
+            "start": 29,
+            "end": 20,
+            "type": "BEAM"
+        },
+        {
+            "member": 47,
+            "start": 30,
+            "end": 23,
+            "type": "BEAM"
+        },
+        {
+            "member": 48,
+            "start": 29,
+            "end": 30,
+            "type": "BEAM"
+        },
+        {
+            "member": 49,
+            "start": 31,
+            "end": 121,
+            "type": "BEAM"
+        },
+        {
+            "member": 50,
+            "start": 32,
+            "end": 114,
+            "type": "BEAM"
+        },
+        {
+            "member": 51,
+            "start": 31,
+            "end": 32,
+            "type": "BEAM"
+        },
+        {
+            "member": 52,
+            "start": 33,
+            "end": 12,
+            "type": "BEAM"
+        },
+        {
+            "member": 53,
+            "start": 34,
+            "end": 71,
+            "type": "BEAM"
+        },
+        {
+            "member": 54,
+            "start": 33,
+            "end": 34,
+            "type": "BEAM"
+        },
+        {
+            "member": 55,
+            "start": 35,
+            "end": 118,
+            "type": "BEAM"
+        },
+        {
+            "member": 56,
+            "start": 36,
+            "end": 84,
+            "type": "BEAM"
+        },
+        {
+            "member": 57,
+            "start": 35,
+            "end": 94,
+            "type": "BEAM"
+        },
+        {
+            "member": 78,
+            "start": 100,
+            "end": 119,
+            "type": "BEAM"
+        },
+        {
+            "member": 79,
+            "start": 67,
+            "end": 116,
+            "type": "BEAM"
+        },
+        {
+            "member": 80,
+            "start": 99,
+            "end": 120,
+            "type": "BEAM"
+        },
+        {
+            "member": 81,
+            "start": 63,
+            "end": 115,
+            "type": "BEAM"
+        },
+        {
+            "member": 82,
+            "start": 96,
+            "end": 45,
+            "type": "BEAM"
+        },
+        {
+            "member": 83,
+            "start": 71,
+            "end": 42,
+            "type": "BEAM"
+        },
+        {
+            "member": 85,
+            "start": 12,
+            "end": 40,
+            "type": "BEAM"
+        },
+        {
+            "member": 89,
+            "start": 10,
+            "end": 37,
+            "type": "BEAM"
+        },
+        {
+            "member": 91,
+            "start": 45,
+            "end": 72,
+            "type": "BEAM"
+        },
+        {
+            "member": 93,
+            "start": 40,
+            "end": 90,
+            "type": "BEAM"
+        },
+        {
+            "member": 95,
+            "start": 37,
+            "end": 93,
+            "type": "BEAM"
+        },
+        {
+            "member": 99,
+            "start": 49,
+            "end": 130,
+            "type": "COLUMN"
+        },
+        {
+            "member": 100,
+            "start": 49,
+            "end": 131,
+            "type": "BEAM"
+        },
+        {
+            "member": 102,
+            "start": 50,
+            "end": 83,
+            "type": "BEAM"
+        },
+        {
+            "member": 108,
+            "start": 54,
+            "end": 77,
+            "type": "BEAM"
+        },
+        {
+            "member": 113,
+            "start": 77,
+            "end": 59,
+            "type": "BEAM"
+        },
+        {
+            "member": 117,
+            "start": 62,
+            "end": 110,
+            "type": "BEAM"
+        },
+        {
+            "member": 118,
+            "start": 63,
+            "end": 21,
+            "type": "BEAM"
+        },
+        {
+            "member": 120,
+            "start": 65,
+            "end": 111,
+            "type": "BEAM"
+        },
+        {
+            "member": 122,
+            "start": 67,
+            "end": 24,
+            "type": "BEAM"
+        },
+        {
+            "member": 123,
+            "start": 68,
+            "end": 72,
+            "type": "BEAM"
+        },
+        {
+            "member": 124,
+            "start": 33,
+            "end": 68,
+            "type": "BEAM"
+        },
+        {
+            "member": 125,
+            "start": 36,
+            "end": 70,
+            "type": "BEAM"
+        },
+        {
+            "member": 126,
+            "start": 69,
+            "end": 70,
+            "type": "BEAM"
+        },
+        {
+            "member": 127,
+            "start": 35,
+            "end": 69,
+            "type": "BEAM"
+        },
+        {
+            "member": 128,
+            "start": 71,
+            "end": 11,
+            "type": "BEAM"
+        },
+        {
+            "member": 129,
+            "start": 72,
+            "end": 42,
+            "type": "BEAM"
+        },
+        {
+            "member": 140,
+            "start": 73,
+            "end": 21,
+            "type": "COLUMN"
+        },
+        {
+            "member": 142,
+            "start": 102,
+            "end": 108,
+            "type": "BEAM"
+        },
+        {
+            "member": 143,
+            "start": 103,
+            "end": 106,
+            "type": "BEAM"
+        },
+        {
+            "member": 144,
+            "start": 104,
+            "end": 109,
+            "type": "BEAM"
+        },
+        {
+            "member": 145,
+            "start": 105,
+            "end": 107,
+            "type": "BEAM"
+        },
+        {
+            "member": 146,
+            "start": 87,
+            "end": 111,
+            "type": "BEAM"
+        },
+        {
+            "member": 147,
+            "start": 127,
+            "end": 101,
+            "type": "BEAM"
+        },
+        {
+            "member": 148,
+            "start": 86,
+            "end": 110,
+            "type": "BEAM"
+        },
+        {
+            "member": 149,
+            "start": 88,
+            "end": 113,
+            "type": "BEAM"
+        },
+        {
+            "member": 151,
+            "start": 75,
+            "end": 11,
+            "type": "BEAM"
+        },
+        {
+            "member": 155,
+            "start": 11,
+            "end": 90,
+            "type": "BEAM"
+        },
+        {
+            "member": 156,
+            "start": 78,
+            "end": 95,
+            "type": "BEAM"
+        },
+        {
+            "member": 160,
+            "start": 80,
+            "end": 54,
+            "type": "BEAM"
+        },
+        {
+            "member": 163,
+            "start": 54,
+            "end": 50,
+            "type": "BEAM"
+        },
+        {
+            "member": 167,
+            "start": 8,
+            "end": 93,
+            "type": "BEAM"
+        },
+        {
+            "member": 169,
+            "start": 37,
+            "end": 83,
+            "type": "BEAM"
+        },
+        {
+            "member": 171,
+            "start": 84,
+            "end": 117,
+            "type": "BEAM"
+        },
+        {
+            "member": 172,
+            "start": 85,
+            "end": 123,
+            "type": "BEAM"
+        },
+        {
+            "member": 173,
+            "start": 86,
+            "end": 108,
+            "type": "BEAM"
+        },
+        {
+            "member": 174,
+            "start": 87,
+            "end": 125,
+            "type": "BEAM"
+        },
+        {
+            "member": 175,
+            "start": 88,
+            "end": 15,
+            "type": "BEAM"
+        },
+        {
+            "member": 176,
+            "start": 89,
+            "end": 18,
+            "type": "BEAM"
+        },
+        {
+            "member": 177,
+            "start": 90,
+            "end": 80,
+            "type": "BEAM"
+        },
+        {
+            "member": 178,
+            "start": 91,
+            "end": 138,
+            "type": "COLUMN"
+        },
+        {
+            "member": 179,
+            "start": 92,
+            "end": 18,
+            "type": "COLUMN"
+        },
+        {
+            "member": 180,
+            "start": 93,
+            "end": 124,
+            "type": "BEAM"
+        },
+        {
+            "member": 181,
+            "start": 94,
+            "end": 78,
+            "type": "BEAM"
+        },
+        {
+            "member": 182,
+            "start": 95,
+            "end": 36,
+            "type": "BEAM"
+        },
+        {
+            "member": 183,
+            "start": 96,
+            "end": 34,
+            "type": "BEAM"
+        },
+        {
+            "member": 184,
+            "start": 97,
+            "end": 115,
+            "type": "BEAM"
+        },
+        {
+            "member": 185,
+            "start": 98,
+            "end": 116,
+            "type": "BEAM"
+        },
+        {
+            "member": 186,
+            "start": 97,
+            "end": 98,
+            "type": "BEAM"
+        },
+        {
+            "member": 187,
+            "start": 121,
+            "end": 118,
+            "type": "BEAM"
+        },
+        {
+            "member": 188,
+            "start": 99,
+            "end": 35,
+            "type": "BEAM"
+        },
+        {
+            "member": 189,
+            "start": 100,
+            "end": 36,
+            "type": "BEAM"
+        },
+        {
+            "member": 190,
+            "start": 114,
+            "end": 117,
+            "type": "BEAM"
+        },
+        {
+            "member": 191,
+            "start": 125,
+            "end": 101,
+            "type": "BEAM"
+        },
+        {
+            "member": 193,
+            "start": 102,
+            "end": 14,
+            "type": "COLUMN"
+        },
+        {
+            "member": 194,
+            "start": 103,
+            "end": 91,
+            "type": "COLUMN"
+        },
+        {
+            "member": 195,
+            "start": 104,
+            "end": 17,
+            "type": "COLUMN"
+        },
+        {
+            "member": 196,
+            "start": 105,
+            "end": 92,
+            "type": "COLUMN"
+        },
+        {
+            "member": 197,
+            "start": 28,
+            "end": 27,
+            "type": "BEAM"
+        },
+        {
+            "member": 198,
+            "start": 106,
+            "end": 88,
+            "type": "BEAM"
+        },
+        {
+            "member": 199,
+            "start": 107,
+            "end": 128,
+            "type": "BEAM"
+        },
+        {
+            "member": 200,
+            "start": 108,
+            "end": 27,
+            "type": "BEAM"
+        },
+        {
+            "member": 201,
+            "start": 109,
+            "end": 28,
+            "type": "BEAM"
+        },
+        {
+            "member": 202,
+            "start": 110,
+            "end": 120,
+            "type": "BEAM"
+        },
+        {
+            "member": 203,
+            "start": 111,
+            "end": 119,
+            "type": "BEAM"
+        },
+        {
+            "member": 205,
+            "start": 113,
+            "end": 63,
+            "type": "BEAM"
+        },
+        {
+            "member": 206,
+            "start": 114,
+            "end": 129,
+            "type": "BEAM"
+        },
+        {
+            "member": 207,
+            "start": 115,
+            "end": 10,
+            "type": "BEAM"
+        },
+        {
+            "member": 208,
+            "start": 116,
+            "end": 122,
+            "type": "BEAM"
+        },
+        {
+            "member": 209,
+            "start": 117,
+            "end": 98,
+            "type": "BEAM"
+        },
+        {
+            "member": 210,
+            "start": 118,
+            "end": 97,
+            "type": "BEAM"
+        },
+        {
+            "member": 211,
+            "start": 119,
+            "end": 32,
+            "type": "BEAM"
+        },
+        {
+            "member": 212,
+            "start": 120,
+            "end": 31,
+            "type": "BEAM"
+        },
+        {
+            "member": 213,
+            "start": 121,
+            "end": 113,
+            "type": "BEAM"
+        },
+        {
+            "member": 214,
+            "start": 122,
+            "end": 8,
+            "type": "BEAM"
+        },
+        {
+            "member": 215,
+            "start": 123,
+            "end": 50,
+            "type": "BEAM"
+        },
+        {
+            "member": 216,
+            "start": 124,
+            "end": 85,
+            "type": "BEAM"
+        },
+        {
+            "member": 217,
+            "start": 125,
+            "end": 109,
+            "type": "BEAM"
+        },
+        {
+            "member": 218,
+            "start": 126,
+            "end": 89,
+            "type": "BEAM"
+        },
+        {
+            "member": 219,
+            "start": 126,
+            "end": 127,
+            "type": "BEAM"
+        },
+        {
+            "member": 220,
+            "start": 128,
+            "end": 126,
+            "type": "BEAM"
+        },
+        {
+            "member": 221,
+            "start": 89,
+            "end": 129,
+            "type": "BEAM"
+        },
+        {
+            "member": 222,
+            "start": 129,
+            "end": 67,
+            "type": "BEAM"
+        },
+        {
+            "member": 223,
+            "start": 130,
+            "end": 24,
+            "type": "COLUMN"
+        },
+        {
+            "member": 224,
+            "start": 131,
+            "end": 137,
+            "type": "BEAM"
+        },
+        {
+            "member": 225,
+            "start": 131,
+            "end": 132,
+            "type": "BEAM"
+        },
+        {
+            "member": 226,
+            "start": 130,
+            "end": 132,
+            "type": "BEAM"
+        },
+        {
+            "member": 227,
+            "start": 137,
+            "end": 136,
+            "type": "BEAM"
+        },
+        {
+            "member": 228,
+            "start": 134,
+            "end": 136,
+            "type": "BEAM"
+        },
+        {
+            "member": 229,
+            "start": 135,
+            "end": 137,
+            "type": "BEAM"
+        },
+        {
+            "member": 230,
+            "start": 134,
+            "end": 135,
+            "type": "BEAM"
+        },
+        {
+            "member": 231,
+            "start": 135,
+            "end": 18,
+            "type": "BEAM"
+        },
+        {
+            "member": 232,
+            "start": 136,
+            "end": 73,
+            "type": "BEAM"
+        },
+        {
+            "member": 233,
+            "start": 138,
+            "end": 15,
+            "type": "COLUMN"
+        }
+    ]
+}
