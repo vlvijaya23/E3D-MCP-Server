@@ -19,6 +19,7 @@ using Aveva.ApplicationFramework;
 using Aveva.Core.Database;
 using Aveva.Core.PMLNet;
 using System.Reflection;
+using E3DBridge.Staad;
 
 [assembly: PMLNetCallable()]
 
@@ -272,8 +273,20 @@ case "/status":
         case "/positionmethods":
             return PositionMethods();
 
-        default:
-            return Error("Unknown path: " + job.Path);
+        case "/readstaad":
+            return ReadStaad();
+
+case "/version":
+    return Version();
+
+case "/readstaadmodel":
+    return ReadStaadModel();
+
+case "/readstaadmembers":
+    return ReadStaadMembers();
+
+default:
+    return Error("Unknown path: " + job.Path);
     }
 }
 
@@ -1248,6 +1261,58 @@ private string PositionMethods()
     {
         return Error(ex.ToString());
     }
+}
+
+private string ReadStaad()
+{
+    try
+    {
+        string text =
+            StaadParser.ReadFile(
+                @"C:\e3d-mcp\sample.std");
+
+        return _json.Serialize(
+            new Dictionary<string, object>
+            {
+                { "ok", true },
+                { "content", text }
+            });
+    }
+    catch (Exception ex)
+    {
+        return Error(ex.ToString());
+    }
+}
+
+private string ReadStaadMembers()
+{
+    try
+    {
+        var members =
+            StaadParser.GetMembers(
+                @"C:\E3D-mcp\sample.std");
+
+        return "Members found = " +
+               members.Count;
+    }
+    catch(Exception ex)
+    {
+        return ex.ToString();
+    }
+}
+
+private string Version()
+{
+    return "STAAD_IMPORT_V1";
+}
+
+private string ReadStaadModel()
+{
+    var nodes =
+        StaadParser.GetNodes(
+            @"C:\E3D-mcp\sample.std");
+
+    return nodes[nodes.Count - 1].ToString();
 }
 
         private string Error(string message)
